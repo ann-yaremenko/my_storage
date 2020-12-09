@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<solar_system>
+	<objects>
+		<object id="1" type="star">
+			<name>Sun</name>
+			<mass>333,000 Earth mass</mass>
+			<mean_temp>5700°K</mean_temp>
+		</object>
+		
+		<object id="2" type="inner_planet">
+			<name>Mercury</name>
+			<mass>0.055 Earth mass</mass>
+			<sun_distance>0.4 AU</sun_distance>
+			<mean_temp>270°C</mean_temp>
+				<satellite/>
+		</object>
+		
+		<object id="3" type="inner_planet">
+			<name>Venus</name>
+			<mass>0.815 Earth mass</mass>
+			<sun_distance>0.7 AU</sun_distance>
+			<mean_temp>464°C</mean_temp>
+				<satellite/>
+		</object>
+		
+		<object id="4" type="inner_planet">
+			<name>Earth</name>
+			<mass>5,9726 * 10^24 kg</mass>
+			<sun_distance>1 AU</sun_distance>
+			<mean_temp>14°C</mean_temp>
+				<satellite id="01">
+					<name>Moon</name>
+				</satellite>
+		</object>
+		
+		<object id="5" type="inner_planet">
+			<name>Mars</name>
+			<mass>0.107 Earth mass</mass>
+			<sun_distance>1.5 AU</sun_distance>
+			<mean_temp>−63°C</mean_temp>
+				<satellite id="02">
+					<name>Phobos</name>
+				</satellite>
+				<satellite id="03">
+					<name>Deimos</name>
+				</satellite>
+		</object>
+		
+		<object id="6" type="giant_planet">
+			<name>Jupiter</name>
+			<mass>318 Earth mass</mass>
+			<sun_distance>5.2 AU</sun_distance>
+			<mean_temp>−108°C</mean_temp>
+				<satellite id="04">
+					<name>IO</name>
+				</satellite>
+				<satellite id="05">
+					<name>Europa</name>
+				</satellite>
+				<satellite id="06">
+					<name>Ganymede</name>
+				</satellite>
+				<satellite id="07">
+					<name>Callisto</name>
+				</satellite>
+		</object>
+		
+		<object id="7" type="giant_planet">
+			<name>Saturn</name>
+			<mass>95 Earth mass</mass>
+			<sun_distance>9.5 AU</sun_distance>
+			<mean_temp>−139°C</mean_temp>
+				<satellite id="08">
+					<name>Titan</name>
+				</satellite>
+				<satellite id="09">
+					<name>Rhea</name>
+				</satellite>
+				<satellite id="10">
+					<name>Enceladus</name>
+				</satellite>
+				<satellite id="11">
+					<name>Mimas</name>
+				</satellite>
+		</object>
+		
+		<object id="8" type="giant_planet">
+			<name>Uranus</name>
+			<mass>14 Earth mass</mass>
+			<sun_distance>19.2 AU</sun_distance>
+			<mean_temp>−197.2°C</mean_temp>
+				<satellite id="12">
+					<name>Miranda</name>
+				</satellite>
+				<satellite id="13">
+					<name>Ariel</name>
+				</satellite>
+				<satellite id="14">
+					<name>Titania</name>
+				</satellite>
+				<satellite id="15">
+					<name>Oberon</name>
+				</satellite>
+		</object>
+		
+		<object id="9" type="giant_planet">
+			<name>Neptune</name>
+			<mass>17.1 Earth mass</mass>
+			<sun_distance>30.1 AU</sun_distance>
+			<mean_temp>−201°C</mean_temp>
+				<satellite id="16">
+					<name>Triton</name>
+				</satellite>
+				<satellite id="17">
+					<name>Nereid</name>
+				</satellite>
+				<satellite id="18">
+					<name>Proteus</name>
+				</satellite>
+				<satellite id="19">
+					<name>Galatea</name>
+				</satellite>
+		</object>
+	
+	</objects>
+</solar_system>

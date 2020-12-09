@@ -1,0 +1,123 @@
+{
+  "solar system": [
+	{"object1" : {
+		"id": 1,
+		"type" : "Star",
+		"name" : "Sun",
+		"mass" : "333,000 Earth mass",
+		"mean_temp" : "5700°K"}
+	},
+		
+	{"object2" : {
+		"id" : 2, 
+		"type" : "inner_planet",
+		"name" : "Mercury",
+		"mass" : "0.055 Earth mass",
+		"sun_distance" : "0.4 AU",
+		"mean_temp" : "270°C",
+		"satellite" : "none"}
+	},
+		
+	{"object3" : {
+		"id" : 3, 
+		"type" : "inner_planet",
+		"name" : "Venus",
+		"mass" : "0.815 Earth mass",
+		"sun_distance" : "0.7 AU",
+		"mean_temp" : "464°C",
+		"satellite" : "none"}
+	},	
+
+	{"object4" : {
+		"id" : 4, 
+		"type" : "inner_planet",
+		"name" : "Earth",
+		"mass" : "5,9726 * 10^24 kg",
+		"sun_distance" : "1 AU",
+		"mean_temp" : "14°C",
+		"satellite" : [
+			{"s_id" : "01", "s_name" : "Moon"}
+			]
+		}
+	},	
+
+	{"object5" : {
+		"id" : 5, 
+		"type" : "inner_planet",
+		"name" : "Mars",
+		"mass" : "0.107 Earth mass",
+		"sun_distance" : "1.5 AU",
+		"mean_temp" : "-63°C",
+		"satellite" : [
+			{"s_id" : "02", "s_name" : "Phobos"},
+			{"s_id" : "03", "s_name" : "Deimos"}
+			]
+		}
+	},	
+	
+	{"object6" : {
+		"id" : 6, 
+		"type" : "giant_planet",
+		"name" : "Jupiter",
+		"mass" : "318 Earth mass",
+		"sun_distance" : "5.2 AU",
+		"mean_temp" : "-108°C",
+		"satellite" : [
+			{"s_id" : "04", "s_name" : "IO"},
+			{"s_id" : "05", "s_name" : "Europa"},
+			{"s_id" : "06", "s_name" : "Ganymede"},
+			{"s_id" : "07", "s_name" : "Callisto"}
+			]
+		}
+	},	
+	
+	{"object7" : {
+		"id" : 7, 
+		"type" : "giant_planet",
+		"name" : "Saturn",
+		"mass" : "95 Earth mass",
+		"sun_distance" : "9.5 AU",
+		"mean_temp" : "-139°C",
+		"satellite" : [
+			{"s_id" : "08", "s_name" : "Titan"},
+			{"s_id" : "09", "s_name" : "Rhea"},
+			{"s_id" : "10", "s_name" : "Enceladus"},
+			{"s_id" : "11", "s_name" : "Mimas"}
+			]
+		}
+	},	
+	
+	{"object8" : {
+		"id" : 8, 
+		"type" : "giant_planet",
+		"name" : "Uranus",
+		"mass" : "14 Earth mass",
+		"sun_distance" : "19.2 AU",
+		"mean_temp" : "−197.2°C",
+		"satellite" : [
+			{"s_id" : "12", "s_name" : "Miranda"},
+			{"s_id" : "13", "s_name" : "Ariel"},
+			{"s_id" : "14", "s_name" : "Titania"},
+			{"s_id" : "15", "s_name" : "Oberon"}
+			]
+		}
+	},	
+	
+	{"object9" : {
+		"id" : 9, 
+		"type" : "giant_planet",
+		"name" : "Neptune",
+		"mass" : "17.1 Earth mass",
+		"sun_distance" : "30.1 AU",
+		"mean_temp" : "−201°C",
+		"satellite" : [
+			{"s_id" : "16", "s_name" : "Triton"},
+			{"s_id" : "17", "s_name" : "Nereid"},
+			{"s_id" : "18", "s_name" : "Proteus"},
+			{"s_id" : "19", "s_name" : "Galatea"}
+			]
+		}
+	},	
+	]
+	
+}
